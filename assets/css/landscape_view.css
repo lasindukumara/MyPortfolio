@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Tahoma,serif,Arial, Helvetica, sans-serif;
+}
+
+.preloader {
+    display: block;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 100VH;
+    background: #000 url('image/loader.gif') no-repeat center;
+}
+
+header {
+    padding: 1vh 5vw 1vh 5vw;
+    align-items: center;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    background: #000;
+}
+
+.logo {
+    background: url("image/icon.png") no-repeat;
+    background-position: center;
+    box-sizing: fit-content;
+    background-size: 100%;
+    height: 10vh;
+    width: 150px;
+    border-radius: 10px;
+}
+
+
+#side-menu span,#side-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+#side-menu li {
+    margin: 0 10px 0 10px;
+}
+
+#side-menu  li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+#side-menu span li a::after {
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+#side-menu span li a:hover::after {
+    width: 100%;
+}
+
+.header-btn  {
+        display: block;
+        margin: auto;
+        width: fit-content;
+        border: 1px solid #ff004f;
+        padding: 5px 15px;
+        border-radius: 16px;
+        text-decoration: none;
+        color: #fff;
+        transition: background 0.5s;
+}
+.header-btn:hover{
+    background: #ff004f;
+    color: #000;
+}
+.header{
+    width: 100%;
+   min-height: 88vh;
+    right: 0;
+    background-image: url("image/wallpaper_landscape.jpg");
+    background-size: cover;
+    background-position: right;
+    margin-right: 0;
+}
+.header-text {
+    padding-top: 20vh;
+    margin-left: 5vh;
+    font-size: 5vh;
+    color: #fff;
+
+}
+
+.header-text h1 {
+    font-size: 7vh;
+}
+
+.header-text h1 span:hover {
+    color: #ff004f;
+}
+
+.job-title span {
+    color: #ff004f;
+}
+.btn {
+    margin-top: 3vh;
+    margin-left: 5vh;
+    font-size: small;
+    display: block;
+    width: fit-content;
+    border: 1px solid #ff004f;
+    padding: 5px 15px;
+    border-radius: 16px;
+    text-decoration: none;
+    color: #fff;
+    transition: background 0.5s;
+}
+
+.btn:hover {
+    background: #ff004f;
+    color: #000;
+}

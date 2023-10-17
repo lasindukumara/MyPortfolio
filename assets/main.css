@@ -1,0 +1,2 @@
+@import url("css/landscape_view.css") screen and (orientation:landscape);
+@import url("css/portrait_view.css") screen and (orientation:portrait);
